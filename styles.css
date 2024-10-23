@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/8.png'); /* Use one of your images for the background */
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.gallery {
+    text-align: center;
+    padding: 20px;
+}
+
+.gallery .images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery .images img {
+    margin: 15px 0; /* Adds vertical spacing between images */
+    width: 80%; /* Adjust width to fit the container */
+    height: auto;
+    border: 2px solid white;
+}
+
+#chatbot {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.chatbox {
+    margin: 20px auto;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+}
